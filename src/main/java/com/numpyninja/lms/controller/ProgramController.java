@@ -23,7 +23,7 @@ public class ProgramController{
     private ProgramServices programServices;
 //check jenkins
   //get list of programs
-  	@GetMapping(value = "/allProgramsedit")
+  	@GetMapping(value = "/allPrograms")
   	private ResponseEntity<?> getPrograms()  throws ResourceNotFoundException 
   	{ 
   		System.out.println("in getall programs");
