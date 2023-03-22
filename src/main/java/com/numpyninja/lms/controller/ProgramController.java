@@ -21,7 +21,7 @@ import java.util.List;
 public class ProgramController{
     @Autowired
     private ProgramServices programServices;
-//check jenkins
+//check heroku tests now
   //get list of programs
   	@GetMapping(value = "/allPrograms")
   	private ResponseEntity<?> getPrograms()  throws ResourceNotFoundException 
