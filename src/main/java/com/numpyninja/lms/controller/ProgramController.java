@@ -22,7 +22,7 @@ public class ProgramController{
     @Autowired
     private ProgramServices programServices;
 //check heroku tests now
-  //get list of programs
+  //get list of programs check
   	@GetMapping(value = "/allPrograms")
   	private ResponseEntity<?> getPrograms()  throws ResourceNotFoundException 
   	{ 
